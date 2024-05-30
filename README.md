@@ -24,6 +24,12 @@ Incluindo na solution o projeto de teste do serviço de agenda
 
 Incluíndo no projeto de teste do serviço de agenda, a referência do projeto de lib do serviço de agenda
 
-`dotnet add ./ServicoAgenda.Tests/ServicoAgenda.Tests.csproj reference ./ServicoAgenda/ServicoAgenda.csproj`
+`dotnet add ./ServicoAgenda.Tests/ServicoAgenda.Tests.csproj reference ./ServicoAgenda/ServicoAgenda.csproj
 
+## o que foi feito
 
+criação dos teste e criação das regras
+
+rodando os teste, de dentro da pasta projeto-tdd
+
+`dotnet test -l "console;verbosity=normal"`
